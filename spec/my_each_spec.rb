@@ -1,4 +1,12 @@
-require_relative 'spec_helper'
+'''RUBY_VERSION
+collection = [1,2,3,4]
+my_each(collection) do |i|
+  puts i 
+  
+end
+
+
+equire_relative 'spec_helper'
 require 'pry'
 
 describe "my_each" do
