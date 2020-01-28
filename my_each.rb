@@ -1,3 +1,5 @@
-def my_each # put argument(s) here
-  # code here
-end
+name = ["Toya","Mario","Marquise","Makai"]
+my_each(name) do |i|
+  puts i 
+end 
+
